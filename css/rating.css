@@ -1,0 +1,25 @@
+.rating {
+    display: none;
+}
+
+.rating+label {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    font-size: 20px;
+    background-image: url("./../img/empty-star.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 5px 10px;
+    -webkit-user-select: none;
+}
+
+.rating:checked+label {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+    font-size: 20px;
+    background-image: url("./../img/blue-filled-star.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
